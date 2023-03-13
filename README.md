@@ -9,7 +9,7 @@ This is a Java RESTful webservice that implements an accumulator that keeps trac
 
 **POST /reset** - Resets the accumulator back to zero with a new quota.
 
-The webservice is implemented using Spring Boot and Maven.
+The webservice is implemented using **Spring Boot** and **Maven**.
 
 # How to Run
 To run the webservice, you can use the following command:
