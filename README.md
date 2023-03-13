@@ -1,7 +1,7 @@
 # iMDS-Java-Coding-Challenge
 
-Accumulator RESTful Webservice
-This is a Java RESTful webservice that implements an accumulator that keeps track of a total while preventing the total from exceeding a defined quota. The webservice supports three RESTful operations:
+## Accumulator RESTful Webservice
+This is a Java web application that implements a simple accumulator that accumulates a total while preventing the total from exceeding a defined quota. The application provides three RESTful operations:
 
 **POST /consume** - Accumulates the total while preventing it from exceeding the quota.
 
@@ -12,7 +12,7 @@ This is a Java RESTful webservice that implements an accumulator that keeps trac
 The webservice is implemented using **Spring Boot** and **Maven**.
 
 
-# How to Build and Run
+## How to Build and Run
 To build the application, you need to have Maven installed. Run the following command in the root directory of the project:
 
 ```bash
