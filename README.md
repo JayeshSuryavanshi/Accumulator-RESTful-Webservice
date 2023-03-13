@@ -11,12 +11,19 @@ This is a Java RESTful webservice that implements an accumulator that keeps trac
 
 The webservice is implemented using **Spring Boot** and **Maven**.
 
-# How to Run
-To run the webservice, you can use the following command:
+
+# How to Build and Run
+To build the application, you need to have Maven installed. Run the following command in the root directory of the project:
 
 ```bash
-mvn spring-boot:run
+mvn package
 ```
 
-This will start the webservice at http://localhost:8080.
+This will compile the code and create a JAR file in the target directory.
 
+To run the application, use the following command:
+```bash
+java -jar target/accumulator-0.0.1-SNAPSHOT.jar
+```
+
+This will start the application on port 8080. You can access the application at http://localhost:8080.
