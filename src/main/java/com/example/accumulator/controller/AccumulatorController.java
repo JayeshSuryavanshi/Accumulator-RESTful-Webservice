@@ -20,7 +20,7 @@ public class AccumulatorController {
         }
         total += value;
         int remaining = quota - total;
-        Map<String, Integer> response = new HashMap<>();
+        Map<String, Integer> response = new HashMap<String,Integer>();
         response.put("total", total);
         response.put("remaining", remaining);
         return ResponseEntity.ok().body(response);
@@ -29,7 +29,7 @@ public class AccumulatorController {
     @GetMapping("/consume")
     public ResponseEntity<Map<String, Integer>> getTotal() {
         int remaining = quota - total;
-        Map<String, Integer> response = new HashMap<>();
+        Map<String, Integer> response = new HashMap<String,Integer>();
         response.put("total", total);
         response.put("remaining", remaining);
         return ResponseEntity.ok().body(response);
@@ -44,7 +44,7 @@ public class AccumulatorController {
         quota = newQuota;
         total = 0;
         int remaining = quota - total;
-        Map<String, Integer> response = new HashMap<>();
+        Map<String, Integer> response = new HashMap<String,Integer>();
         response.put("total", total);
         response.put("remaining", remaining);
         return ResponseEntity.ok().body(response);
