@@ -1,5 +1,3 @@
-# iMDS-Java-Coding-Challenge
-
 ## Accumulator RESTful Webservice
 This is a Java web application that implements a simple accumulator that accumulates a total while preventing the total from exceeding a defined quota. The application provides three RESTful operations:
 
