@@ -61,10 +61,13 @@ Example Request:
 #### GET /consume
 Example Response:
 
+```bash
 {
  "total": 246,
  "remaining": 754
 }
+```
+
 ## POST /reset
 This endpoint allows you to reset the accumulator back to zero with a new quota.
 
