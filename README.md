@@ -12,7 +12,7 @@ This is a Java web application that implements a simple accumulator that accumul
 The webservice is implemented using **Spring Boot** and **Maven**.
 
 
-## How to Build and Run
+# How to Build and Run
 To build the application, you need to have Maven installed. Run the following command in the root directory of the project:
 
 ```bash
@@ -28,7 +28,7 @@ java -jar target/accumulator-0.0.1-SNAPSHOT.jar
 
 This will start the application on port 8080. You can access the application at http://localhost:8080.
 
-## API Documentation
+# API Documentation
 
 The following API endpoints are available:
 
@@ -88,6 +88,6 @@ Example Response:
 }
 ```
 
-## Limitations
+# Limitations
 The application does not persist the total and quota between runs. If you restart the application, the total will be reset to 0 and the quota will be set to the default value of 1000.
 
