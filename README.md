@@ -31,16 +31,16 @@ Validation rules enforced by the controller:
 
 ## Tech Stack
 
-- **Java 11**
-- **Spring Boot 2.6.3** (`spring-boot-starter-web`, embedded Tomcat)
-- **Jackson** (JSON serialization)
+- **Java 17**
+- **Spring Boot 4.1.1** (`spring-boot-starter-web`, embedded Tomcat 11)
+- **Jackson 3** (JSON serialization, included with `spring-boot-starter-web`)
 - **Lombok** (provided scope)
-- **JUnit 5** (test scope)
+- **JUnit 6** (test scope)
 - **Maven** build (`spring-boot-maven-plugin`)
 
 ## Build and Run
 
-You need Java 11+ and Maven installed.
+You need Java 17 or later and Maven 3.6.3 or later installed.
 
 Build the application from the project root:
 
